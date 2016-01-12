@@ -86,6 +86,22 @@ class GiiController extends Controller
             //生成文件
             file_put_contents($editPath,$editContent);
 
+
+            //生成index
+            ob_start();//再次开启ob缓存
+            require TPL_PATH.'index.tpl';
+            $indexContent = ob_get_clean();
+            $indexDir = APP_PATH.'Admin/View/'.$name;
+            //如果存放视图文件是否存在,如果不存在就创建
+            if(!is_dir($indexDir)){
+                mkdir($indexDir,0777,true);
+            }
+            $indexPath = $indexDir.'/index.html';
+            file_put_contents($indexPath,$indexContent);
+
+
+            $this->success('生成成功!',U('index'));
+
         }else{
             //分配数据到页面
             $this->assign('meta_title','代码生成');
