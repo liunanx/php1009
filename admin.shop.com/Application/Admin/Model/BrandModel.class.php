@@ -1,11 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Administrator
- * Date: 2016/1/6
- * Time: 18:54
- */
-
 namespace Admin\Model;
 
 
@@ -13,10 +6,12 @@ use Think\Model;
 
 class BrandModel extends BaseModel
 {
-    // 自动验证定义
-    protected $_validate = array(
-        array('name','require','名字不能够为空'),
-        array('name','','名字已经存在','','unique'),
-        array('intro','require','描述不能够为空'),
+//自动验证模板，验证不能为空的字段
+protected $_validate = array(
+    array('name','require','品牌名称不能够为空'),
+array('url','require','品牌网址不能够为空'),
+array('logo','require','品牌LOGO@file不能够为空'),
+array('sort','require','排序不能够为空'),
+array('status','require','状态@radio|1=是&0=否不能够为空'),
     );
 }

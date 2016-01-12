@@ -28,34 +28,14 @@
         <form action="<?php echo U();?>" method="post">
             <table width="90%" id="general-table" align="center">
                 <tr>
-                    <td class="label">供应商名称：</td>
-                    <td><input type="text" name="name" value="<?php echo ($name); ?>" size="30" />
-                    <span class="require-field">*</span></td>
-                </tr>
-                <tr>
-                    <td class="label">排序： </td>
-                    <td>
-                        <input type="text" name="sort" value="<?php echo ($sort); ?>" size="20"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">供应商简介：</td>
-                    <td>
-                        <textarea  name="intro" cols="60" rows="4"><?php echo ($intro); ?></textarea>
-                        <span class="require-field">*</span>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">是否显示：</td>
-                    <td>
-                        <input type="radio" name="status" value="1" class="status"/> 是
-                        <input type="radio" name="status" value="0" class="status"/> 否
-                    </td>
+                    <td class="label">表名称：</td>
+                    <td><input type="text" name="table_name" value="" size="30" />
+                        <span class="require-field">*</span></td>
                 </tr>
             </table>
             <div class="button-div">
                 <input type="hidden" value="<?php echo ($id); ?>" name="id"/>
-                <input class="ajax-post button" type="submit" value=" 确定 "/>
+                <input class=" button" type="submit" value=" 确定 "/>
                 <input type="reset" value=" 重置 " class="button" />
             </div>
         </form>

@@ -20,7 +20,7 @@
         <form action="<?php echo U('index');?>" name="searchForm">
             <img src="http://admin.shop.com/Public/Admin/images/icon_search.gif" width="26" height="22" border="0" alt="search" />
             <!-- 关键字 -->
-            关键字 <input id="search" type="text" name="keyword" size="15" value="<?php echo ($_GET['keyword']); ?>"/>
+            关键字 <input id="search" type="text" name="keyword" size="15" value="{e}"/>
             <input type="submit" value=" 搜索 " class="button" />
         </form>
     </div>

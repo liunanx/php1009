@@ -26,6 +26,7 @@ class BaseController extends Controller
         $wheres = array();
         $search = I('get.keyword','');
         $search = urldecode($search);
+        $this->assign('search',$search);
         if(!empty($search)){
             $wheres['name']=array('like',$search.'%');
         }
