@@ -27,44 +27,37 @@
     <div id="tabbody-div">
         <form action="<?php echo U();?>" method="post">
             <table width="90%" id="general-table" align="center">
-                <tr>
-                    <td class="label">品牌名称：</td>
-                    <td><input type="text" name="name" value="<?php echo ($name); ?>" size="30" />
-                        <span class="require-field">*</span></td>
-                </tr>
-                <tr>
-                    <td class="label">品牌网址： </td>
-                    <td>
-                        <input type="text" name="url" value="<?php echo ($url); ?>" size="20"/>
-                        <span class="require-field">*</span>
-                    </td>
-                </tr>
-                <tr class="label">
-                    <td class="label">品牌logo： </td>
-                    <td>
-                        <input type="file" name="logo">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">排序： </td>
-                    <td>
-                        <input type="text" name="sort" value="<?php echo ($sort); ?>" size="20"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">品牌简介：</td>
-                    <td>
-                        <textarea  name="intro" cols="60" rows="4"><?php echo ($intro); ?></textarea>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="label">是否显示：</td>
-                    <td>
-                        <input type="radio" name="status" value="1" class="status"/> 是
-                        <input type="radio" name="status" value="0" class="status"/> 否
-                    </td>
-                </tr>
-            </table>
+                                    <tr>
+                        <td class="label">品牌名称</td>
+                        <td>
+                            <input type='text' name='name' value='<?php echo ($name); ?>' size='30' />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="label">品牌网址</td>
+                        <td>
+                            <input type='text' name='url' value='<?php echo ($url); ?>' size='30' />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="label">品牌LOGO</td>
+                        <td>
+                            <input type='file' name='logo'>                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="label">排序</td>
+                        <td>
+                            <input type='text' name='sort' value='<?php echo ((isset($sort) && ($sort !== ""))?($sort):10); ?>' size='30' />                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="label">品牌简介</td>
+                        <td>
+                            <textarea  name='intro' cols='60' rows='4'><?php echo ($intro); ?></textarea>                        </td>
+                    </tr>
+                                    <tr>
+                        <td class="label">状态</td>
+                        <td>
+                            <input type='radio' name='status' value='1' class='status'/> 是<input type='radio' name='status' value='0' class='status'/> 否                        </td>
+                    </tr>
+                            </table>
             <div class="button-div">
                 <input type="hidden" value="<?php echo ($id); ?>" name="id"/>
                 <input class="ajax-post button" type="submit" value=" 确定 "/>

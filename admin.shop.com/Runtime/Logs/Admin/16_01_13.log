@@ -96,3 +96,1434 @@ SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA 
 NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
 SQL: show full columns from brand [ RunTime:0.0021s ]
 
+[ 2016-01-13T05:21:41+08:00 ] 192.168.1.103 /index.php/Supplier/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013798s ]
+SQL: SHOW COLUMNS FROM `supplier` [ RunTime:0.2220s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `supplier` WHERE `status` > -1 LIMIT 1   [ RunTime:0.3027s ]
+SQL: SELECT * FROM `supplier` WHERE `status` > -1 LIMIT 0,3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.019098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.019310s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 34 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/bcac581fb95c95173a4bc52e6df31fb3.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.146403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005901s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020802s ]
+
+[ 2016-01-13T05:21:45+08:00 ] 192.168.1.103 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-01-13T05:21:48+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2016-01-13T05:22:13+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016917s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-01-13T05:22:19+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0503s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0016s ]
+
+[ 2016-01-13T05:35:04+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0012s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2016-01-13T05:35:45+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0010s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0026s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2016-01-13T05:37:33+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0011s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:39:44+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0021s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:40:12+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:40:14+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-01-13T05:40:19+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:40:30+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:41:00+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0006s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:41:19+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0035s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:42:09+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 51 行.
+
+[ 2016-01-13T05:53:02+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0021s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0015s ]
+
+[ 2016-01-13T05:57:30+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:58:09+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:58:55+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0018s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:58:58+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:58:59+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:59:18+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:59:32+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0013s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T05:59:38+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0006s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:08:22+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2016-01-13T06:09:21+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0016s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:28:41+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2016-01-13T06:28:47+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0011s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:30:42+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000414s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000567s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2016-01-13T06:30:44+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:30:47+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012609s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-01-13T06:30:51+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:31:54+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0019s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:33:43+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2016-01-13T06:35:40+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015109s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-01-13T06:35:43+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000991s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001035s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0024s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 14 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 16 行.
+NOTIC: [8] Undefined index: field_type /home/www/shop/admin.shop.com/Template/edit.tpl 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2016-01-13T06:39:28+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-01-13T06:39:32+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2016-01-13T06:41:29+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2016-01-13T06:42:17+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0011s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: field /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 49 行.
+
+[ 2016-01-13T06:42:40+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+
+[ 2016-01-13T06:42:46+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-01-13T06:43:07+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-01-13T06:43:30+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-01-13T06:43:32+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-01-13T06:44:22+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012156s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000815s ]
+
+[ 2016-01-13T06:44:23+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011584s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000768s ]
+
+[ 2016-01-13T06:44:27+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0014s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0012s ]
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-01-13T06:46:25+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+
+[ 2016-01-13T06:47:52+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2016-01-13T06:50:15+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001154s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2016-01-13T06:52:56+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2016-01-13T06:53:33+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 21 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 13 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+NOTIC: [8] Undefined variable: filed /home/www/shop/admin.shop.com/Template/edit.tpl 第 15 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2016-01-13T06:54:21+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0013s ]
+
+[ 2016-01-13T06:57:58+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0013s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-01-13T06:58:51+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011855s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-01-13T06:59:13+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0013s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2016-01-13T07:00:06+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0012s ]
+
+[ 2016-01-13T07:01:40+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0009s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: fields /home/www/shop/admin.shop.com/Template/Model.tpl 第 11 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/Model.tpl 第 11 行.
+NOTIC: [8] Undefined variable: fields /home/www/shop/admin.shop.com/Template/edit.tpl 第 7 行.
+NOTIC: [2] Invalid argument supplied for foreach() /home/www/shop/admin.shop.com/Template/edit.tpl 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000778s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000844s ]
+
+[ 2016-01-13T07:01:53+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0007s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2016-01-13T07:02:09+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+
+[ 2016-01-13T07:02:23+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011205s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-01-13T07:02:26+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2016-01-13T07:04:20+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 38 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2016-01-13T07:06:53+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 38 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-01-13T07:09:17+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002351s ]
+
+[ 2016-01-13T07:09:34+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2016-01-13T07:09:49+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000282s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 38 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-01-13T07:12:00+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0013s ]
+ERR: 模板不存在:/home/www/shop/admin.shop.com/Application/Admin/View/Brand/edit.html
+
+[ 2016-01-13T07:12:00+08:00 ] 192.168.1.103 /index.php/Brand/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0010s ]
+
+[ 2016-01-13T07:12:14+08:00 ] 192.168.1.103 /index.php/Brand/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `brand` WHERE `status` > -1 LIMIT 1   [ RunTime:0.0412s ]
+SQL: SELECT * FROM `brand` WHERE `status` > -1 LIMIT 0,3   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000354s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/e8b323c5d8440767130c19fdf505bb52.php 第 34 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/e8b323c5d8440767130c19fdf505bb52.php 第 35 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000883s ]
+
+[ 2016-01-13T07:12:19+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000289s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2016-01-13T07:12:21+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2016-01-13T07:12:23+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2016-01-13T07:12:23+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2016-01-13T07:12:23+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001142s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2016-01-13T07:12:23+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000870s ]
+
+[ 2016-01-13T07:12:23+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000242s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2016-01-13T07:12:26+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0008s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2016-01-13T07:12:48+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 38 行.
+NOTIC: [8] Undefined variable: sort /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 48 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001241s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001339s ]
+
+[ 2016-01-13T07:14:47+08:00 ] 192.168.1.103 /index.php/Brand/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: name /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 33 行.
+NOTIC: [8] Undefined variable: url /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 38 行.
+NOTIC: [8] Undefined variable: intro /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 53 行.
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/fda147d8658050636c6cc78d34bd3046.php 第 62 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2016-01-13T07:15:28+08:00 ] 192.168.1.103 /index.php/Gii/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: id /home/www/shop/admin.shop.com/Runtime/Cache/Admin/88ea83518d089b284a8ce1d46985ec7e.php 第 37 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011243s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-01-13T07:15:31+08:00 ] 192.168.1.103 /index.php/Gii/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: select  TABLE_COMMENT from information_schema.`TABLES`  where TABLE_SCHEMA = 'shop1009' and TABLE_NAME = 'brand' [ RunTime:0.0006s ]
+NOTIC: [2] define() expects at least 2 parameters, 1 given /home/www/shop/admin.shop.com/Application/Admin/Controller/GiiController.class.php 第 29 行.
+SQL: show full columns from brand [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
