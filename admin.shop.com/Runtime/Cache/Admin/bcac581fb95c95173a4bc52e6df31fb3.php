@@ -65,7 +65,7 @@
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/js/jquery-1.11.2.js"></script>
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/js/common.js"></script>
 <script type="text/javascript" src="http://admin.shop.com/Public/Admin/layer/layer.js"></script>
-<block><!--预留出JavaScript位置--></block>
+<!--预留出JavaScript位置-->
 
 </body>
 </html>

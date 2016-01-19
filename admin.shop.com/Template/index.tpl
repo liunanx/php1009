@@ -1,6 +1,6 @@
 <extend name="Common/index"/>
 
-<block name="list">
+<block name="body">
     <div class="list-div" id="listDiv">
         <table cellpadding="3" cellspacing="1">
             <tr>
@@ -18,7 +18,7 @@
                             if($field['field']=='name'){
                               echo '<td class="first-cell">{$row.name}</td>';
                             }elseif($field['field']=='status'){
-                              echo "<td align=\"center\"><a class=\"ajax-get\" href=\"{:U('changeStatus',array('id'=>\$row['id'],'status'=>(1-\$row['status'])))}\"><img src=\"__IMG__/{\$row.status}.gif\"/></a></td>";
+                              echo "<td align=\"center\"><a class=\"ajax-get\" href=\"{:U('statusChange',array('id'=>\$row['id'],'status'=>(1-\$row['status'])))}\"><img src=\"__IMG__/{\$row.status}.gif\"/></a></td>";
                             }else{
                               echo "<td align=\"center\">{\$row.{$field['field']}}</td>";
                             }
@@ -27,7 +27,7 @@
 
                     <td align="center">
                         <a href="{:U('edit',array('id'=>$row['id']))}" title="编辑">编辑</a> |
-                        <a  class="ajax-get" href="{:U('changeStatus',array('id'=>$row['id']))}" title="移除">移除</a>
+                        <a  class="ajax-get" href="{:U('statusChange',array('id'=>$row['id']))}" title="移除">移除</a>
                     </td>
                 </tr>
             </volist>

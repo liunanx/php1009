@@ -17,7 +17,16 @@
                                     <tr>
                         <td class="label">品牌LOGO</td>
                         <td>
-                            <input type='file' name='logo'>                        </td>
+                            <input type='file' id="logo_uploader" name='logo_uploader'>
+                            <input type="hidden" name="logo" class="logo"/>
+
+                            <div class="upload-img-box" style="display: none">
+                                <div class="upload-pre-item">
+                                    <img src=""/>
+                                </div>
+                            </div>
+
+                        </td>
                     </tr>
                                     <tr>
                         <td class="label">排序</td>
@@ -42,4 +51,33 @@
             </div>
         </form>
     </div>
+</block>
+
+<block name="javascript">
+    <script type="text/javascript" src="__UPLOADIFY__/jquery.uploadify.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $("#logo_uploader").uploadify({
+                height        : 30,
+                buttonText    : '上传图片',
+                debug         : true,
+                formData      : {'dir':'brand'},
+                fileTypeExts : '*.gif; *.jpg; *.png',  //允许上传的文件
+                swf           : '__UPLOADIFY__/uploadify.swf',
+                uploader      : '{:U("Uploads/index")}',
+                width         : 120,
+                //data是响应的上传后的地址
+                'onUploadSuccess'  : function(file, data, response){
+//                    console.debug(data);
+//                    alert(data);
+                    //显示div
+                    $('.upload-img-box').show();
+                    //给img标签添加地址
+                    $('.upload-img-box .upload-pre-item img').attr('src','__UPLOAD__/'+data);
+                    //将上传后的地址放入隐藏域中一起提交给服务器
+                    $('.logo').val(data);
+                }
+            });
+        });
+    </script>
 </block>

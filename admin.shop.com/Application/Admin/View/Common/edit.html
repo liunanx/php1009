@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="__CSS__/general.css" rel="stylesheet" type="text/css" />
 <link href="__CSS__/main.css" rel="stylesheet" type="text/css" />
+<link href="__CSS__/common.css" rel="stylesheet" type="text/css" />
 <block name="css"><!--为css预留位置--></block>
 </head>
 <body>
@@ -16,15 +17,9 @@
     <div style="clear:both"></div>
 </h1>
 
+
 <div class="tab-div">
-    <div id="tabbar-div">
-        <p>
-            <span class="tab-front" id="general-tab">通用信息</span>
-        </p>
-    </div>
-
-            <block name="form"><!--为添加编辑表单预留位置--></block>
-
+    <block name="form"><!--为添加编辑表单预留位置--></block>
 </div>
 
 <div id="footer">
@@ -35,7 +30,7 @@
 <script type="text/javascript" src="__LAYER__/layer.js"></script>
 <script type="text/javascript" src="__JS__/jquery.form.js"></script>
 <script type="text/javascript" src="__JS__/common.js"></script>
-<block name="css"><!--为javascript预留位置--></block>
+<block name="javascript"><!--为javascript预留位置--></block>
 <script type="text/javascript">
     $(function (){
         $('.status').val([{$status|default=1}]);
