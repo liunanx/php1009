@@ -1,0 +1,53 @@
+<extend name="Common/edit"/>
+
+<block name="form">
+    <div id="tabbody-div">
+        <form action="{:U()}" method="post">
+            <table width="90%" id="general-table" align="center">
+                <tr>
+                    <td class="label">文章名称</td>
+                    <td>
+                        <input type='text' name='name' value='{$name}' size='30'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label">文章分类</td>
+                    <td>
+                        {:arr2select('article_category_id',$articleCategory,$article_category_id)}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <textarea id="content" name="content">{$content}</textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="label">是否显示</td>
+                    <td>
+                        <input type='radio' name='status' value='1' class='status'/> 是
+                        <input type='radio' name='status' value='0' class='status'/> 否
+                    </td>
+                </tr>
+            </table>
+            <div class="button-div">
+                <input type="hidden" value="{$id}" name="id"/>
+                <input class="button" type="submit" value=" 确定 "/>
+                <input type="reset" value=" 重置 " class="button"/>
+            </div>
+        </form>
+    </div>
+</block>
+
+<block name="javascript">
+    <script type="text/javascript" charset="utf-8" src="__UEDITOR__/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__UEDITOR__/ueditor.all.min.js"> </script>
+    <script type="text/javascript">
+        $(function(){
+            //第一个参数是表单元素的id   第二个参数是关于在线编辑器的配置
+            var ue = UE.getEditor('content',{
+                initialFrameHeight :400
+            });
+        })
+    </script>
+</block>

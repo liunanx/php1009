@@ -1,5 +1,6 @@
 $(function(){
 
+
   //使用复选框的全选功能
   $('.checkAll').click(function(){
     $('.ids').prop('checked',$(this).prop('checked'));

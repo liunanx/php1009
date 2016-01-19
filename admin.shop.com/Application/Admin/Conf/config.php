@@ -9,5 +9,10 @@ return array(
         '__JS__'=>WEB_URL.'/Public/Admin/js',
         '__IMG__'=>WEB_URL.'/Public/Admin/images',
         '__LAYER__'=>WEB_URL.'/Public/Admin/layer',
+        '__UPLOADIFY__'=>WEB_URL.'/Public/Admin/uploadify',
+        '__TREEGRID__'=>WEB_URL.'/Public/Admin/treegrid',
+        '__ZTREE__'=>WEB_URL.'/Public/Admin/zTree',
+        '__UPLOAD__'=>WEB_URL.'/Uploads',
+        '__UEDITOR__'=>WEB_URL.'/Public/Admin/ueditor'
     )
 );

@@ -20,10 +20,11 @@ class BaseModel extends Model
     //分页的制作
     public function getPageResult($wheres = array()){
         //过滤掉不显示出来的数据
-        $wheres['status'] = array('gt',-1);
+        $wheres['obj.status'] = array('gt',-1);
         //准备分页工具条数据
         $pageHtml = '';
         $pageSize = 3;
+        $this->alias('obj');
         $totalRows = $this->where($wheres)->count(); //显示的总条数
         $page = new Page($totalRows,$pageSize);
         $pageHtml = $page->show();//生成分页的html
@@ -35,8 +36,17 @@ class BaseModel extends Model
         if($totalRows<3){
             $page->firstRow = 0;
         }
+
+        //为当前模型对应的表指定一个别名
+        $this->alias('obj');
+        //使用表连接查询
+        $this->_setModel();
+
         //准备分页列表数据
         $rows = $this->where($wheres)->limit($page->firstRow,$page->listRows)->select();
+
+        //进一步处理数据
+        $this->_handleRows($rows);
         //返回数据
         return array('rows'=>$rows,'pageHtml'=>$pageHtml);
     }
@@ -59,7 +69,18 @@ class BaseModel extends Model
 //    }
 
     //查询出状态大于-1的数据 状态为-1时不显示
-//    public function getList(){
-//        return $this->where(array('status'=>array('gt',-1)))->select();
-//    }
+    public function getList($field='*',$wheres=array()){
+        return $this->field($field)->where($wheres)->select();
+    }
+
+    //用于被子类覆盖，连接查询
+    protected function _setModel(){
+
+    }
+
+    //用于被子类覆盖，进一步处理goods列表数据
+    protected function _handleRows(){
+
+    }
+
 }

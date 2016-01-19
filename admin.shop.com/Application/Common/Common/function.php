@@ -23,3 +23,50 @@ function show_model_error($model){
     $errorMsg .= '</ul>';
     return $errorMsg;
 }
+
+
+
+
+/**
+ * 返回数组中指定的一列
+ * @param $rows     二维数组
+ * @param $field    字段
+ * @return array   一维数组
+ */
+if(!function_exists('array_column')){   //做系统兼容性出来.
+    function array_column($rows,$field){
+        $value =array();
+        foreach($rows as $row){ //循环出每个小数组,并且出去field字段对应的值.
+            $value[] = $row[$field];
+        }
+        return $value;
+    }
+}
+
+
+/**
+ * 生成一个select下拉框的函数
+ * @param $name  字段名
+ * @param $rows  分配到页面的数据
+ * @param string $defaultField  默认选中的值
+ * @param string $valueField  选中id
+ * @param string $textField  选中的内容name
+ * @return string
+ */
+function arr2select($name,$rows,$defaultValue='',$valueField='id',$textField='name'){
+    $select_html = "<select class='{$name}' name='{$name}'>";
+    $select_html .= '<option value="">--请选择--</option>';
+
+    foreach($rows as $row){
+        $selected ='';
+        if($row[$valueField]==$defaultValue){
+            $selected = 'selected';
+        }
+        $select_html .= "<option value='{$row[$valueField]}' {$selected}>{$row[$textField]}</option>";
+    }
+
+    $select_html.='</select>';
+
+    echo $select_html;
+
+}

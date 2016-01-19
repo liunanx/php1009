@@ -5,6 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="http://admin.shop.com/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
 <link href="http://admin.shop.com/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="http://admin.shop.com/Public/Admin/css/common.css" rel="stylesheet" type="text/css" />
 <!--为css预留位置-->
 </head>
 <body>
@@ -16,14 +17,9 @@
     <div style="clear:both"></div>
 </h1>
 
-<div class="tab-div">
-    <div id="tabbar-div">
-        <p>
-            <span class="tab-front" id="general-tab">通用信息</span>
-        </p>
-    </div>
 
-            
+<div class="tab-div">
+    
     <div id="tabbody-div">
         <form action="<?php echo U();?>" method="post">
             <table width="90%" id="general-table" align="center">
@@ -40,7 +36,6 @@
             </div>
         </form>
     </div>
-
 
 </div>
 
